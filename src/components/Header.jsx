@@ -27,7 +27,7 @@ function NavLinks() {
 function Header() {
   return (
     <header className="fixed top-0 right-0 left-0 z-1 flex items-center justify-between py-4 pr-8 pl-4">
-      <h2 className="text-2xl font-bold text-white">Franco Popp</h2>
+      <h2 className="text-2xl font-bold text-nowrap text-white">Franco Popp</h2>
       <nav className="flex gap-10 md:mr-16">
         <NavLinks />
       </nav>

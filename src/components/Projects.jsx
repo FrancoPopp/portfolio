@@ -3,13 +3,11 @@ import Button from "./Button";
 import TechIcon from "./TechIcon";
 import { techs } from "../resources/techs";
 import { FaArrowCircleRight } from "react-icons/fa";
+import Section from "./Section";
 
 function Projects() {
   return (
-    <section
-      id="projects"
-      className="relative flex min-h-screen w-full flex-col items-center px-8 pt-[64px]"
-    >
+    <Section id="projects">
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-4xl font-bold text-[#fff]">Projects</h1>
         <div className="grid gap-10 md:grid-cols-2">
@@ -42,7 +40,7 @@ function Projects() {
           />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

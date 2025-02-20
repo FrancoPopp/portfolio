@@ -2,13 +2,11 @@ import { FaLinkedinIn, FaGithub, FaDownload, FaCopy } from "react-icons/fa";
 import Button from "./Button";
 import Input from "./Input";
 import SocialButton from "./SocialButton";
+import Section from "./Section";
 
 function About() {
   return (
-    <section
-      id="about"
-      className="relative flex h-[calc(100vh-64px)] w-full items-center justify-center px-10"
-    >
+    <Section id="about">
       <div className="flex flex-col items-center gap-6 md:w-1/2">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-4xl font-bold text-nowrap text-[#fff]">
@@ -59,7 +57,7 @@ function About() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

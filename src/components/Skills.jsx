@@ -1,12 +1,10 @@
 import { Card, CardContent } from "./Card";
 import { techs } from "../resources/techs";
+import Section from "./Section";
 
 function Skills() {
   return (
-    <section
-      id="skills"
-      className="relative flex h-screen w-full flex-col items-center px-8 pt-[64px]"
-    >
+    <Section id="skills">
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-3xl font-bold text-[#fff]">Skills</h1>
         <div className="flex flex-wrap items-center justify-center gap-6 lg:w-3/4">
@@ -20,7 +18,7 @@ function Skills() {
           <SkillCard tech={techs.postgres} />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 
@@ -32,7 +30,7 @@ function SkillCard({ tech }) {
           <img
             src={tech.icon}
             alt={tech.alt}
-            className="h-20 grayscale-60 transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+            className="h-20 transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0 md:grayscale-60"
           />
           <span className="cursor-default text-sm text-[#fff]">
             {tech.name}
