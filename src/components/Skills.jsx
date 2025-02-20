@@ -1,4 +1,5 @@
 import { Card, CardContent } from "./Card";
+import { techs } from "../resources/techs";
 
 function Skills() {
   return (
@@ -9,46 +10,14 @@ function Skills() {
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-3xl font-bold text-[#fff]">Skills</h1>
         <div className="flex w-3/4 flex-wrap items-center justify-center gap-6">
-          <SkillCard
-            name="Java"
-            src="/src/assets/images/javaLogo.webp"
-            alt="java logo"
-          />
-          <SkillCard
-            name="Spring boot"
-            src="/src/assets/images/springbootLogo.webp"
-            alt="springboot logo"
-          />
-          <SkillCard
-            name="JavaScript"
-            src="/src/assets/images/jsLogo.webp"
-            alt="javascript logo"
-          />
-          <SkillCard
-            name="HTML5"
-            src="/src/assets/images/htmlLogo.webp"
-            alt="html5 logo"
-          />
-          <SkillCard
-            name="CSS3"
-            src="/src/assets/images/css3Logo.webp"
-            alt="css3 logo"
-          />
-          <SkillCard
-            name="ReactJS"
-            src="/src/assets/images/reactLogo.webp"
-            alt="react logo"
-          />
-          <SkillCard
-            name="TailwindCSS"
-            src="/src/assets/images/tailwindLogo.webp"
-            alt="tailwindcss logo"
-          />
-          <SkillCard
-            name="PostgreSQL"
-            src="/src/assets/images/postgresLogo.svg.webp"
-            alt="postgreSQL logo"
-          />
+          <SkillCard tech={techs.java} />
+          <SkillCard tech={techs.springboot} />
+          <SkillCard tech={techs.javascript} />
+          <SkillCard tech={techs.html} />
+          <SkillCard tech={techs.css} />
+          <SkillCard tech={techs.react} />
+          <SkillCard tech={techs.tailwind} />
+          <SkillCard tech={techs.postgres} />
         </div>
       </div>
     </section>
