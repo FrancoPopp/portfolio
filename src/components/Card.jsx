@@ -1,7 +1,7 @@
 function Card({ className, children, ...props }) {
   return (
     <div
-      className={`${className} group relative flex flex-col gap-4 rounded-2xl bg-[#1f1f1f] p-4`}
+      className={`${className} group relative z-0 flex flex-col gap-4 rounded-2xl bg-[#1f1f1f] p-4`}
       {...props}
     >
       {children}
@@ -23,7 +23,7 @@ function CardTitle({ className, children, ...props }) {
 function CardContent({ className, children, ...props }) {
   return (
     <div
-      className={`${className} flex flex-col items-center justify-center gap-4`}
+      className={`${className} flex flex-col items-center justify-center gap-2`}
       {...props}
     >
       {children}

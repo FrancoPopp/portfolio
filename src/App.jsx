@@ -3,16 +3,20 @@ import Background from "./components/Background";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Background />
       <Header />
-      <main className="h-screen w-full px-8">
+      <main className="h-screen w-full">
         <About />
         <Projects />
         <Experience />
+        <Skills />
+        <Footer />
       </main>
     </>
   );

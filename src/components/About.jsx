@@ -5,7 +5,10 @@ import SocialButton from "./SocialButton";
 
 function About() {
   return (
-    <section className="relative grid h-[calc(100vh-64px)] items-center px-10 md:grid-cols-2">
+    <section
+      id="about"
+      className="relative grid h-[calc(100vh-64px)] items-center px-10 md:grid-cols-2"
+    >
       <div className="flex flex-col items-center gap-6">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-4xl font-bold text-nowrap text-[#fff]">

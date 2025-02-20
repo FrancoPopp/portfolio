@@ -2,7 +2,10 @@ import { Card, CardContent } from "./Card";
 
 function Experience() {
   return (
-    <section className="relative grid min-h-screen w-full md:grid-cols-2">
+    <section
+      id="experience"
+      className="relative grid min-h-screen w-full px-8 pt-[64px] md:grid-cols-2"
+    >
       <div className="flex flex-col items-center gap-10">
         <h2 className="text-3xl font-bold text-[#fff]">Experience</h2>
         <div className="flex w-3/4 flex-col gap-16">
