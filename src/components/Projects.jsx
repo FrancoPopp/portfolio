@@ -15,7 +15,7 @@ function Projects() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
             title="Personal Portfolio"
-            src="/public/assets/images/portfolioSS.jpeg"
+            src="/portfolioSS.jpeg"
             alt="screenshot of my personal portfolio"
             href="https://github.com/FrancoPopp/portfolio"
             techs={[
@@ -28,7 +28,7 @@ function Projects() {
           />
           <ProjectCard
             title="Iventory Management"
-            src="/public/assets/images/portfolioSS.jpeg"
+            src="/portfolioSS.jpeg"
             alt="screenshot of an inventory management system"
             href="https://github.com/FrancoPopp/inventory-management-system"
             techs={[

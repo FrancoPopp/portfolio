@@ -24,17 +24,19 @@ function Skills() {
   );
 }
 
-function SkillCard({ name, src, alt }) {
+function SkillCard({ tech }) {
   return (
     <Card className="group w-32 bg-gradient-to-bl hover:from-[#B326DC] hover:to-[#1f1f1f]">
       <CardContent className="h-full">
         <div className="flex h-full flex-col items-center justify-between gap-4">
           <img
-            src={src}
-            alt={alt}
+            src={tech.icon}
+            alt={tech.alt}
             className="h-20 grayscale-60 transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
           />
-          <span className="cursor-default text-sm text-[#fff]">{name}</span>
+          <span className="cursor-default text-sm text-[#fff]">
+            {tech.name}
+          </span>
           <div className="absolute top-0 left-0 -z-1 h-full w-full rounded-2xl bg-[#1f1f1f] transition-all duration-500 group-hover:bg-[#1f1f1f]/0"></div>
         </div>
       </CardContent>
