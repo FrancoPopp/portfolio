@@ -12,7 +12,7 @@ function Projects() {
     >
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-4xl font-bold text-[#fff]">Projects</h1>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-2">
           <ProjectCard
             title="Personal Portfolio"
             src="/portfolioSS.jpeg"

@@ -7,9 +7,9 @@ function About() {
   return (
     <section
       id="about"
-      className="relative grid h-[calc(100vh-64px)] items-center px-10 md:grid-cols-2"
+      className="relative flex h-[calc(100vh-64px)] w-full items-center justify-center px-10"
     >
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6 md:w-1/2">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-4xl font-bold text-nowrap text-[#fff]">
             I'm Franco Popp

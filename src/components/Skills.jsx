@@ -9,7 +9,7 @@ function Skills() {
     >
       <div className="flex flex-col items-center gap-10">
         <h1 className="text-3xl font-bold text-[#fff]">Skills</h1>
-        <div className="flex w-3/4 flex-wrap items-center justify-center gap-6">
+        <div className="flex flex-wrap items-center justify-center gap-6 lg:w-3/4">
           <SkillCard tech={techs.java} />
           <SkillCard tech={techs.springboot} />
           <SkillCard tech={techs.javascript} />
