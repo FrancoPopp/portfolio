@@ -70,7 +70,7 @@ function MobileHeader() {
       <div
         className={`fixed inset-y-0 left-0 transform ${
           isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
-        } z-30 w-64 bg-[#1f1f1f]/75 shadow-lg transition-transform duration-300 ease-in-out`}
+        } z-30 w-64 bg-[rgba(32,32,32,0.75)]/75 shadow-lg transition-transform duration-300 ease-in-out`}
       >
         <div className="flex h-full flex-col">
           <div className="flex items-center justify-end p-4">
