@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaDownload, FaCopy } from "react-icons/fa";
 import Button from "./Button";
 import Input from "./Input";
 import SocialButton from "./SocialButton";
@@ -25,9 +25,29 @@ function About() {
           technology.
         </p>
         <div className="flex size-fit flex-col items-center gap-4">
-          <Input />
+          <Input
+            onClick={() =>
+              navigator.clipboard.writeText("franco.a.popp9@gmail.com")
+            }
+            className="group cursor-copy"
+          >
+            <p className="text-md text-[#fff]">franco.a.popp9@gmail.com</p>
+            <FaCopy
+              className="text-[#737373] group-hover:text-[#fff]"
+              size={16}
+            />
+          </Input>
           <div className="flex w-full items-center justify-between">
-            <Button>Download CV</Button>
+            <a
+              href="/src/assets/download/FrancoPoppCV.pdf"
+              download
+              className="size-fit"
+            >
+              <Button>
+                <p className="text-md text-nowrap text-[#fff]">Download CV</p>
+                <FaDownload className="text-sm text-[#fff]" />
+              </Button>
+            </a>
             <SocialButton
               icon={<FaGithub className="text-md text-[#fff]" />}
               href={"https://github.com/FrancoPopp"}
