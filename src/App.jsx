@@ -11,7 +11,7 @@ function App() {
     <>
       <Background />
       <Header />
-      <main className="h-screen w-full">
+      <main className="z-100 h-screen w-full flex-1 snap-y snap-proximity overflow-y-scroll scroll-smooth">
         <About />
         <Projects />
         <Experience />

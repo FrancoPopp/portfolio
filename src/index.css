@@ -23,14 +23,3 @@ body {
 .open-link {
   text-shadow: 3px 3px 10px #b326dc;
 }
-
-main {
-  scroll-snap-type: y proximity;
-  scroll-behavior: smooth;
-  scroll-snap-points-y: repeat(100vh);
-  overflow-y: scroll;
-}
-
-section {
-  scroll-snap-align: start;
-}
