@@ -1,1 +1,37 @@
 @import "tailwindcss";
+
+:root {
+  --background-color: #ffffff;
+  --primary-color: #a0a0a0;
+  --acent-color: #0077b6;
+  --text-color: #000000;
+  --text-accent-color: #737373;
+}
+
+.dark-theme {
+  --background-color: #121212;
+  --primary-color: #1f1f1f;
+  --accent-color: #b326dc;
+  --text-color: #ffffff;
+  --text-accent-color: #e1e1e1;
+}
+
+body {
+  overflow: hidden;
+  padding: 64px 0;
+}
+
+.open-link {
+  text-shadow: 3px 3px 10px #b326dc;
+}
+
+main {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  scroll-snap-points-y: repeat(100vh);
+  overflow-y: scroll;
+}
+
+section {
+  scroll-snap-align: start;
+}
