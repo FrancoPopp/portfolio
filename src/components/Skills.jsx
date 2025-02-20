@@ -24,7 +24,7 @@ function Skills() {
 
 function SkillCard({ tech }) {
   return (
-    <Card className="group w-32 bg-gradient-to-bl hover:from-[#B326DC] hover:to-[#1f1f1f]">
+    <Card className="group w-32 cursor-pointer bg-gradient-to-bl hover:from-[#B326DC] hover:to-[#1f1f1f]">
       <CardContent className="h-full">
         <div className="flex h-full flex-col items-center justify-between gap-4">
           <img
