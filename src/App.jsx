@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Background from "./components/Background";
+import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 
@@ -11,6 +12,7 @@ function App() {
       <main className="h-screen w-full px-8">
         <About />
         <Projects />
+        <Experience />
       </main>
     </>
   );

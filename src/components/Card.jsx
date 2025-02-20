@@ -1,7 +1,7 @@
 function Card({ className, children, ...props }) {
   return (
     <div
-      className={`${className} group relative flex flex-col gap-4 rounded-md bg-[#1f1f1f] p-4`}
+      className={`${className} group relative flex flex-col gap-4 rounded-2xl bg-[#1f1f1f] p-4`}
       {...props}
     >
       {children}
