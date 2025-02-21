@@ -36,11 +36,7 @@ function About() {
             />
           </Input>
           <div className="flex w-full items-center justify-between">
-            <a
-              href="/src/assets/download/FrancoPoppCV.pdf"
-              download
-              className="size-fit"
-            >
+            <a href="/FrancoPoppCV.pdf" download className="size-fit">
               <Button>
                 <p className="text-md text-nowrap text-[#fff]">Download CV</p>
                 <FaDownload className="text-sm text-[#fff]" />
